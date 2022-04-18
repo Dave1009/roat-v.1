@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #1e1e2b;
+}
+
+.box_svg {
+    position: absolute;
+    width: 8vw;
+    top: 30%;
+    left: 12vw;
+}
+
+
+#moveBlock {
+    position: absolute;
+    z-index: 1000;
+    width: 8vw;
+}
+
+.arrow_svg {
+    transform: rotate(360deg);
+    height: 8vw;
+}
+
+.arrow_svg:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #2e303f;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 65vw;
+}
+
+.btn {
+    position: absolute;
+    border: none;
+    bottom: 15%;
+    right: 1%;
+    background: #d65f90ff;
+    padding: 15px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
